@@ -1,0 +1,38 @@
+# Ignora arquivos de configuração local, credenciais e outros dados sensíveis
+.env
+*.env
+
+# Ignora a pasta do ambiente virtual
+.venv/
+venv/
+env/
+
+# Ignora logs de execução
+*.log
+*.out
+
+# Ignora cache de bytecode Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignora caches de pacotes de dependência
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Ignora arquivos temporários e backup
+*~
+*.bak
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Ignora IDEs e editores específicos
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
